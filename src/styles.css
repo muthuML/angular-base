@@ -1,1 +1,60 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background: rgb(226 229 244) !important;
+}
+* {
+  font-family: "Montserrat", sans-serif;
+}
+.mat-drawer-inner-container {
+  min-width: 200px !important;
+  background: #252c35;
+  overflow: hidden !important;
+}
+
+.mat-list-base .mat-list-option {
+  font-size: 14px;
+}
+
+.mat-list-base {
+    margin-top: 15px;
+}
+
+.component_body{
+  height: 100%;
+}
+
+@media only screen and (max-width: 800px){
+  .component_body{
+    margin-top: 11% !important;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .component_body{
+    margin-top: 16% !important;
+  }
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1) !important;
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1) !important;
+	border-radius: 10px !important;
+}
+
+::-webkit-scrollbar {
+	width: 8px !important;
+	height: 8px !important;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 10px !important;
+	border: none !important;
+	background: #9E9E9E !important;
+}
